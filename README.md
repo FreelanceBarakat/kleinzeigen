@@ -33,10 +33,22 @@ Coding guidance: Combine "clean, object-oriented code" with "working software".
 
 ## Your comments / remarks
 
-What would you do if you had more time? Which trade-offs did you take?
+I chose to implement the code using a simple layered application with clean code.
 
-* FILL-ME 1
-* FILL-ME 2
+What would you do if you had more time? 
+- Add code quality checks (To spot bugs and checkstyle..etc)
+- Test coverage ( plugins like Jacoco )
+- Add more types of tests (like but not limited to: Integration tests, performance tests)
+  - But since it was only asked to create unit tests, I only created unit tests.
+- Use code generation lib to eliminate boiler plate code ( like Lombok & Mapstruct)
+- Use more performant methods to read files.
+- Support more types/formats of CSV files.
+
+Which trade-offs did you take?
+
+* Simple implementation VS performant way to read files
+* Focusing only on 1 type of csv files.
+* Services are stateless.
 
 
 Have fun!
