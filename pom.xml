@@ -9,9 +9,14 @@
     <name>kleinanzeigen-csv</name>
     <url>http://www.kleinanzeigen.de/</url>
 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>17</java.version>
+
     </properties>
+
+
     <build>
         <plugins>
             <plugin>
@@ -59,5 +64,13 @@
             <version>5.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.25.3</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 </project>
