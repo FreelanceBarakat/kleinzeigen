@@ -43,6 +43,7 @@ What would you do if you had more time?
 - Use code generation lib to eliminate boiler plate code ( like Lombok & Mapstruct)
 - Use more performant methods to read files.
 - Support more types/formats of CSV files.
+- add CI pipelines
 
 Which trade-offs did you take?
 
