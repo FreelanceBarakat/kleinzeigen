@@ -49,6 +49,7 @@ Which trade-offs did you take?
 * Simple implementation VS performant way to read files
 * Focusing only on 1 type of csv files.
 * Services are stateless.
+* Top level error handling!
 
 
 Have fun!
